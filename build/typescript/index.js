@@ -1,9 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.solution0 = exports.all = void 0;
-const day0_1 = require("./day0");
-Object.defineProperty(exports, "solution0", { enumerable: true, get: function () { return day0_1.solution; } });
-const all = () => [
-    (0, day0_1.solution)()
-];
-exports.all = all;
+exports.Days = void 0;
+const days_1 = require("./days");
+Object.defineProperty(exports, "Days", { enumerable: true, get: function () { return days_1.Days; } });

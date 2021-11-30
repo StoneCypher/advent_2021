@@ -1,21 +1,6 @@
 
-import { solution as solution0 } from './day0';
-
-
-
-
-
-const all = () =>
-
-  [
-    solution0()
-  ];
-
-
-
-
+import { Days } from './days';
 
 export {
-  all,
-  solution0
+  Days
 };

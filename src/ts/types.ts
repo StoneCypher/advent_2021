@@ -1,8 +1,15 @@
 
-type SolutionShape = {
+type Day = {
 
-  id  : number,
-  val : string
+  id               : number,
+  label            : string,
+
+  problem_data     : string;
+
+  example_data     : string;
+  example_solution : string;
+
+  approach         : (data: string) => string;
 
 };
 
@@ -10,4 +17,4 @@ type SolutionShape = {
 
 
 
-export { SolutionShape };
+export { Day };

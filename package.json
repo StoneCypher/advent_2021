@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/StoneCypher/advent_2021#readme",
   "devDependencies": {
+    "@types/jest": "^27.0.3",
     "jest": "^27.4.2",
     "rimraf": "^3.0.2",
     "ts-jest": "^27.0.7",

@@ -1,9 +1,10 @@
 {
   "name": "advent_2021",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Advent of Code 2021 rig",
   "main": "index.js",
   "scripts": {
+    "day": "node ./build/typescript/day_runner.js --",
     "clean": "rimraf -f dist && mkdir dist && rimraf -f docs && mkdir docs && rimraf -f build && mkdir build && cd src/ts && rimraf -f generated_code && mkdir generated_code && cd ../..",
     "write_version": "node ./src/build_js/write_version.js",
     "solution_page": "node ./build/typescript/make_solution_docpage.js",

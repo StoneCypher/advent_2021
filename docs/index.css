@@ -1,0 +1,10 @@
+
+html, body, h1, h2, h3, h4 { border: 0; margin: 0; padding: 0; }
+
+body { padding: 2em 2.5em; line-height: 140%; }
+
+table    { border-collapse: collapse; background-color: #f8f8f8; }
+
+td       { padding: 0.2em 0.5em; }
+tr+tr td { border-top: 1px solid #eee; }
+td+td+td { font-weight: bold; }

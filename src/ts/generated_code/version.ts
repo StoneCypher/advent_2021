@@ -11,7 +11,7 @@
 
 
 const version : string = "0.6.0",
-      built   : number = 1638316998094;
+      built   : number = 1638317069227;
 
 export { version, built };
 

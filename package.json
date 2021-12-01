@@ -10,7 +10,7 @@
     "solution_page": "node ./build/typescript/make_solution_docpage.js",
     "site": "cp ./src/html/* ./docs",
     "readme": "node ./build/typescript/write_readme.js",
-    "index": "markdown-it README.md -o docs/index.html",
+    "index": "markdown-it README.md -o build/index_frag.html && cat ./src/htmlfrag/index_start.htmlfrag build/index_frag.html ./src/htmlfrag/index_end.htmlfrag > docs/index.html",
     "typescript": "tsc --build tsconfig.json",
     "build": "npm run clean && npm run write_version && npm run typescript && npm run test && npm run site && npm run index && npm run solution_page && npm run readme",
     "test": "jest --verbose"

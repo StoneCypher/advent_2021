@@ -3,6 +3,6 @@
 
 const gh_username = 'stonecypher',
       fullname    = 'John Haugeland',
-      configured  = true;
+      configured  = false;
 
 export { gh_username, fullname, configured };

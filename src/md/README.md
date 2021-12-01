@@ -22,9 +22,31 @@ John's Advent of code 2021 setup
 
 [Puzzles are here](https://adventofcode.com/2021)
 
-[Your solutions are here](https://##GHUSER##.github.io/advent_2021/solutions.html) (set Github Pages up for `main` `docs/` first)
+[Your solutions are here](https://##GHUSER##.github.io/advent_2021/solutions.html) (link works after getting started is complete)
 
 You have completed ##COMPLETED## of 25 puzzles.
+
+
+
+
+
+<br/><br/>
+
+# getting started
+
+One time instructions:
+
+1. Fork the repo
+1. Turn `github pages` on on your fork, for `main` branch, `/docs` directory
+1. Download your fork
+1. Go into `%/src/ts/config.ts` and set your things
+1. Run a build `npm run build`
+1. Reload this file
+1. Go to [Github Pages](https://github.com/##GHUSER##/advent_2021/settings/pages).
+    * Turn on pages for `main` branch, `/docs` directory
+1. Commit and push the results
+
+Should be ready.
 
 
 

@@ -10,8 +10,8 @@
 
 
 
-const version : string = "0.5.0",
-      built   : number = 1638314545485;
+const version : string = "0.6.0",
+      built   : number = 1638316998094;
 
 export { version, built };
 

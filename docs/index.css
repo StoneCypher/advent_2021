@@ -8,3 +8,5 @@ table    { border-collapse: collapse; background-color: #f8f8f8; }
 td       { padding: 0.2em 0.5em; }
 tr+tr td { border-top: 1px solid #eee; }
 td+td+td { font-weight: bold; }
+
+th { background-color: #def; font-weight: normal; }

@@ -10,7 +10,7 @@ import { Days }           from './days';
 
 
 
-const start : string = '<!doctype html><html><head><title>My solutions</title><link rel="stylesheet" type="text/css" href="index.css" /></head><body><table>\n',
+const start : string = '<!doctype html><html><head><title>My solutions</title><link rel="stylesheet" type="text/css" href="index.css" /></head><body><table><tr><th>id</th><th>label</th><th>result</th></tr>\n',
       end   : string = '\n\n</table></body></html>';
 
 let guts : string = `<p>Version ${version}, built ${new Date(built).toLocaleString()} (${built})</p>\n`;

@@ -1,6 +1,6 @@
 {
   "name": "advent_2021",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Advent of Code 2021 rig",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,10 @@
     "write_version": "node ./src/build_js/write_version.js",
     "solution_page": "node ./build/typescript/make_solution_docpage.js",
     "site": "cp ./src/html/* ./docs",
+    "readme": "node ./build/typescript/write_readme.js",
+    "index": "markdown-it README.md -o docs/index.html",
     "typescript": "tsc --build tsconfig.json",
-    "build": "npm run clean && npm run write_version && npm run typescript && npm run test && npm run site && npm run solution_page",
+    "build": "npm run clean && npm run write_version && npm run typescript && npm run test && npm run site && npm run index && npm run solution_page && npm run readme",
     "test": "jest --verbose"
   },
   "repository": {
@@ -27,6 +29,7 @@
     "@types/jest": "^27.0.3",
     "chalk": "^4.1.2",
     "jest": "^27.4.2",
+    "markdown-it": "^12.2.0",
     "rimraf": "^3.0.2",
     "ts-jest": "^27.0.7",
     "typescript": "^4.5.2"

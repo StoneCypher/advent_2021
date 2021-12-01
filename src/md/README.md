@@ -16,15 +16,15 @@
   This file will be replaced every build.
 
 -->
-# John Haugeland's advent_2021 dashboard
+# ##WHO##'s advent_2021 dashboard
 
 John's Advent of code 2021 setup
 
 [Puzzles are here](https://adventofcode.com/2021)
 
-[Your solutions are here](https://stonecypher.github.io/advent_2021/solutions.html) (set Github Pages up for `main` `docs/` first)
+[Your solutions are here](https://##GHUSER##.github.io/advent_2021/solutions.html) (set Github Pages up for `main` `docs/` first)
 
-You have completed 0 of 25 puzzles.
+You have completed ##COMPLETED## of 25 puzzles.
 
 
 
